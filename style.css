@@ -1,0 +1,129 @@
+    
+/* favIcon - fonte da imagem: https://www.flaticon.com/free-icon/coffee-cup_5390613 */
+/* revisar e ajustar saporra depois*/
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-image: linear-gradient(60deg,#FA9C61,#ffa66f,#f8ab7b);
+    margin: 0;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+/* talvez deletavel caso nao va usar*/
+h1{
+    margin: 0.5rem 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+}
+
+a{
+ 
+ color: #6B5649;
+}
+
+/*Rosalita's Coffe*/
+#title{
+
+    
+ color: #f8d3bc;
+    font-size: 20px;
+}
+/*Literalmente o cabecalho*/
+#cabecalho{
+    font-size: x-large;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;   
+}
+/*h2*/
+#texto_principal{
+    font-size: x-large;
+
+}
+/*h3*/
+#texto_secundario{
+    font-size: x-large;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: #821551;
+}
+
+.special:hover{
+    text-decoration: underline;
+    color: rgb(197, 37, 37);
+
+}
+/* Style buttons */
+.btn {
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0); /* Blue background */
+    border: none; /* Remove borders */
+    color: #6B5649; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  .btn:hover{
+    background-color: rgba(81, 197, 243, 0.61);
+
+    color: white;
+  }
+  .btn:hover#home{
+    background-color: rgba(81, 132, 243, 0.61);
+   
+}
+  .btn:hover#produtos{
+    background-color: rgba(81, 243, 103, 0.61);
+   
+    }
+.btn:hover#historia
+{
+    background-color: rgba(240, 243, 81, 0.61);
+   
+}
+.btn:hover#endereco{
+    background-color: rgba(243, 173, 81, 0.61);
+   
+}
+
+
+.redes_Sociais{
+    background-size: cover;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border: none; /* Remove borders */
+    padding: 12px 16px;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+/*fonte da imagem:  https://www.pngwing.com/pt/free-png-byvag */
+.redes_Sociais#whatsApp{
+    background-image: url(img/Gmail.png);
+    width: 20px;
+    height: 21px;
+    padding: 2px 16px;
+}
+/*fonte da imagem: https://www.pngegg.com/en/png-etsvr   */
+.redes_Sociais#gitHub{
+    background-image: url(img/github.png);
+}
+/* fonte da imagem: https://www.vecteezy.com/png/18930587-linkedin-logo-png-linkedin-icon-transparent-png */
+.redes_Sociais#linkedin{
+    background-image: url(img/Linkedin.png);
+    width: 40px;
+    height: 40px;
+    padding: 12px 16px;
+}
